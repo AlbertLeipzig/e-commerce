@@ -1,10 +1,12 @@
-import "./style/main.scss"
+import { RouterProvider } from 'react-router-dom';
+import { router } from './utils/router';
+import './style/main.scss';
 function App() {
   return (
-    <>
-      <h1>Hello There</h1>
-    </>
-  )
+    <div>
+      <RouterProvider router={router} />
+    </div>
+  );
 }
 
-export default App
+export default App;
