@@ -1,0 +1,16 @@
+@use '../colors.scss' as *;
+
+button {
+  background-color: $main-color;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 4px;
+  margin: 5vh auto;
+  color: $white;
+  transition: 200ms;
+  font-size: 1.8rem;
+  &:hover {
+    background-color: $white;
+    color: $main-color;
+  }
+}

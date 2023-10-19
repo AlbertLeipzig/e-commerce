@@ -2,4 +2,8 @@
 
 header {
   background-color: $main-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 5vw;
 }
