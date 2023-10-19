@@ -1,0 +1,47 @@
+@use './colors.scss';
+@mixin font-base {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.8rem;
+  color: $black;
+  line-height: 1.6em;
+}
+
+@mixin subtitle {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.6rem;
+  color: $black;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+@mixin title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4rem;
+  color: $black;
+  line-height: 1.1em;
+}
+
+h1 {
+  @include title;
+}
+
+h2 {
+  @include subtitle;
+}
+
+p {
+  @include font-base;
+}
+
+a {
+  @include font-base;
+}
+
+label {
+  @include font-base;
+}
+
+li {
+  @include font-base;
+  list-style-type: none;
+}
