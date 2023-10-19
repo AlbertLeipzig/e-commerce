@@ -4,7 +4,7 @@ import { Footer } from './components/Footer';
 import './style/main.scss';
 function App() {
   return (
-    <div>
+    <div className='body'>
       <RouterProvider router={router} />
       <Footer />
     </div>
