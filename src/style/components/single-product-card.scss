@@ -1,0 +1,18 @@
+@use '../colors.scss' as *;
+
+.single-product-card {
+  /* border: 1px solid $main-color; */
+  box-shadow: 2px 3px 4px $main-color;
+  width: 30vw;
+  max-width: 250px;
+  height: 20vw;
+  padding: 10px;
+  border-radius: 4px;
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+}
