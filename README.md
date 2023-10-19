@@ -1,4 +1,5 @@
-- [] contact formular
-- [] cart
+- [x] contact formular
 - [] products darstellen
 - [] footer position
+- [] pagination
+- [] cart
